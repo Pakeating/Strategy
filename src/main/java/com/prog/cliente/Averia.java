@@ -1,5 +1,7 @@
+package com.prog.cliente;
+
 public class Averia{
-    ProfesionStrategy profesion;
+    
     
     public static void reparar(ProfesionStrategy profesion){
         profesion.llamar();

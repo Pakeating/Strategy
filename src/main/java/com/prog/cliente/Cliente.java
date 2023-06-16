@@ -1,3 +1,5 @@
+package com.prog.cliente;
+
 import java.util.*;
 public class Cliente {
     public static void main(String args[]) {

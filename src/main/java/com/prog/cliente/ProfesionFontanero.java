@@ -1,3 +1,5 @@
+package com.prog.cliente;
+
 import java.util.*;
 public class ProfesionFontanero implements ProfesionStrategy{
     int telefono;
