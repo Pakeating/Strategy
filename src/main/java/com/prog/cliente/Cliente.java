@@ -9,7 +9,7 @@ public class Cliente {
       while (menu!=0){
         Scanner entrada=new Scanner(System.in);
         System.out.println("Introduzca el tipo de avería que ha sufrido introduciendo el numero correspondiente:");
-        System.out.println("0: Salir"+"/n"+"1: Eléctrica"+"/n"+"2: Fontanería"+"/n"+"3: Albannileria");
+        System.out.println("0: Salir"+"\n"+"1: Eléctrica"+"\n"+"2: Fontanería"+"\n"+"3: Albannileria");
         try{menu=entrada.nextInt();}
         catch(Exception e){System.out.println("Entrada no válida: "+e.getMessage());}
         entrada.nextLine();
